@@ -11,7 +11,7 @@ Students are going to deply their applications using their own Heroku accounts.
 
 **3.** Student's code must be up to date on Github. Heroku uses Github to deploy.
 
-**4.** Students must create SSH keys and upload them to both Heroku and Github. You can read about creating SSH Keys [here](https://help.github.com/articles/generating-ssh-keys/). There are different instructions for OS X and Linux (Mac V. Chromebook)
+**4.** Students must create SSH keys and upload them to both Heroku and Github. You can read about creating SSH Keys [here](https://help.github.com/articles/generating-ssh-keys/).
 
 ###Deployment
 + In terminal, in the directory of your final project first enter: `heroku create`. 
@@ -43,7 +43,11 @@ git push heroku master
 ```
 
 ###Hints:
++ Deploy students apps one at a time. 
 + If a student opens their deployed app in the browser and sees an error instead of their page, enter `heroku logs` in terminal.
   * Scroll through the logs to find an error. Students will need to correct the error in their code and redeploy.
 
-+ Students
++ Students can run into errors in creating their SSH Key:
+  * When they get prompted for where to save the SSH Key, the answer is literally provided for them in parentheses
+  * The `pb copy...` actually copies their SSH Key for them, they just need to paste it into Heroku and Github.
+
