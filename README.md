@@ -52,4 +52,4 @@ git push heroku master
   * The `pb copy...` actually copies their SSH Key for them, they just need to paste it into Heroku and Github.
 
 
-<a href='https://learn.co/lessons/hs-ruby1-teachers-guide-heroku-mac' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/hs-ruby1-teachers-guide-heroku-mac' title='Let's deploy!!'>Let's deploy!!</a> on Learn.co and start learning to code for free.</p>
